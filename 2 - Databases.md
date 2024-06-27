@@ -25,6 +25,8 @@
 - Delete
 
 ## Table Query Syntax 
-- ```SELECT column_name FROM table_name WHERE condition```
+- ```SELECT column_name FROM table_name WHERE condition;```
 - COUNT, DISTINCT, LIMIT, OFFSET
-- INSERT, UPDATE, DELETE
+- ```INSERT INTO table_name(col1, col2) VALUES(val1, val2);```
+- ```UPDATE table_name SET col1=val1 WHERE condition;```
+- ```DELETE FROM table_name WHERE condition;```
